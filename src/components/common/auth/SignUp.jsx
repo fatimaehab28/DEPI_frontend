@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useState, useRef } from "react";
-import axios from "../api/axios";
+import axios from "../../../api/axios";
 
-import { api } from "../api/axios";
+import { api } from "../../../api/axios";
 
 
 export default function SignUp() {

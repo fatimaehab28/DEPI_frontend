@@ -1,11 +1,11 @@
 /* eslint-disable no-restricted-globals */
 import { useState } from "react";
 import ProductList from "./ProductList";
-import ProductDetails from "./ProductDetails";
+import ProductDetails from "../../ProductDetails";
 import ProductForm from "./ProductForm";
-import { api } from "../api/axios";
+import { api } from "../../../api/axios";
 
-import Layout from "./Layout"; 
+import Layout from "../../Layout"; 
 
 
 function App() {

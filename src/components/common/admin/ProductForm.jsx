@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { api } from "../api/axios";
+import { api } from "../../../api/axios";
 
 export default function ProductForm({ onBack }) {
   const [form, setForm] = useState({ name: "", price: "", categoryId: "", image: null });

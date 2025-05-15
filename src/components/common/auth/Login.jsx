@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState, useRef } from "react";
 import { jwtDecode } from "jwt-decode";
-import { api } from "../api/axios";
+import { api } from "../../../api/axios";
 
 export default function Login() {
   const navigate = useNavigate();
